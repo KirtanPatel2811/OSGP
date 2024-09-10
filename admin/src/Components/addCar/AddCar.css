@@ -1,0 +1,99 @@
+.addCar {
+  width: 100%;
+  margin: 0px auto;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: "Helvetica Neue", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.addCar-itemfield {
+  margin-bottom: 25px;
+}
+
+.addCar-itemfield p {
+  margin: 0 0 10px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.addCar-itemfield input,
+.addCar-itemfield select,
+.addCar-itemfield textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.addCar-itemfield input:focus,
+.addCar-itemfield select:focus,
+.addCar-itemfield textarea:focus {
+  border-color: #0056a6;
+  box-shadow: 0 0 5px rgba(0, 86, 166, 0.2);
+}
+
+.features-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-column {
+  flex: 0 0 48%;
+}
+
+.features-checkboxes label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+.features-checkboxes input {
+  margin-right: 8px;
+}
+
+.add-Car-selector {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.add-Car-selector:focus {
+  border-color: #0056a6;
+  box-shadow: 0 0 5px rgba(0, 86, 166, 0.2);
+}
+
+.addCar-button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #0056a6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 25px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.addCar-button:hover {
+  background-color: #003d7a;
+}

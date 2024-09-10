@@ -1,0 +1,95 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+
+h1,h2,h3,h4,h5,h6{
+  color :rgb(249, 241, 167);
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+h3,h4{
+  font-size: 1.8rem;
+}
+h5,h6{
+  font-size: 1.2rem;
+}
+
+a{
+  text-decoration: none;
+  color:unset;
+}
+a:hover{
+  color: unset;
+} 
+
+ul{
+  margin: 0;
+  list-style:none;
+}
+
+.section__title{
+  color:blanchedalmond;
+  font-weight: 600;
+  font-size: 2rem;
+
+}
+.section__subtitle{
+  color:rgb(220, 141, 24);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section__discription{
+  color:wheat;
+  font-size: .9rem;
+  line-height: 30px;
+}
+section{
+  padding: 50px 0px;
+}
+.btn{
+  padding: 7px 15px;
+  background: #e77653;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+transition: .3s;
+}
+
+.btn:hover{
+  color: #fff;
+  background: #000d6d;
+
+}
+
+@media only screen and(max-width:768px) 
+{
+ section{
+    padding: 30px 0px;
+ } 
+ .section__title{
+  font-size: 1.6rem;
+ }
+.section__subtitle{
+  font-size: 1.1rem;
+ }
+ 
+}
+
+/* Home.css */
+.home {
+  text-align: center;
+  /* background-image: url('/path/to/your/image.jpg'); */
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

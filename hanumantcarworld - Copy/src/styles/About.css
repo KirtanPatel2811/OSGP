@@ -1,0 +1,130 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+h2, h3, h4, h5 {
+  color: #333;
+}
+
+/* Header Styling */
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+}
+
+/* Main Container Styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.py-5 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Section Styling */
+#AboutUsHeader {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Image Styling */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Scale, Impact, and Achievements Sections */
+#OurScale, #OurImpact, #OurAchievements {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#OurScale img, #OurImpact img, #OurAchievements img {
+  margin-bottom: 1rem;
+}
+
+#OurScale h4, #OurImpact h5, #OurAchievements h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+#OurScale p, #OurImpact p, #OurAchievements p {
+  margin-bottom: 0;
+  color: #666;
+  font-size: 15px;
+}
+
+/* Growth and Future Sections */
+#OurGrowth ul, #OurFuture ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#OurGrowth li, #OurFuture li {
+  margin-bottom: 0.5rem;
+}
+
+#OurGrowth img, #OurFuture img {
+  margin-top: 1rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Hover Effects */
+#OurScale:hover, #OurImpact:hover, #OurAchievements:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .col-lg-6, .col-lg-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

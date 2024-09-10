@@ -1,0 +1,88 @@
+/* AllCars.css */
+
+.all-cars-container {
+    padding-top: 60px; /* Adjust according to your layout */
+  }
+  
+  .all-cars-banner {
+    margin-bottom: 30px;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .car-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .car-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .car-image-container {
+    position: relative;
+    width: 100%;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+    overflow: hidden;
+  }
+  
+  .car-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .car-details {
+    padding: 15px;
+  }
+  
+  .car-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .car-price {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .view-details-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .view-details-btn:hover {
+    background-color: #0056b3;
+  }
+  
