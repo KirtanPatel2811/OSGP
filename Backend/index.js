@@ -12,7 +12,7 @@ app.use(cors());
 
 // Database connection
 mongoose.connect(
-  "mongodb+srv://sgpcse3:sgpcse3@cluster0.nzub51c.mongodb.net/Tables",
+  "mongoDB URL",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
